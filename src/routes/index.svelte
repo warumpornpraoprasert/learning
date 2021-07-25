@@ -13,7 +13,7 @@ import OnMountPhoto from "$lib/OnMountPhoto.svelte";
     rel="stylesheet"
     href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
   />
-  <base href="/learning/">
+  <!-- <base href="/learning/"> -->
 </svelte:head>
 
 <h1>Welcome to SvelteKit</h1>
