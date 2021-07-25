@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "preview": "svelte-kit preview"
+    "build": "npx rimraf build && svelte-kit build && npx touch build/.nojekyll",
+    "preview": "svelte-kit preview",
+    "deploy": "npx gh-pages -d build -t true"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^1.0.0-next.13",
