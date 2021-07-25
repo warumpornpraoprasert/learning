@@ -5,7 +5,7 @@
   import Counter from "$lib/Counter.svelte";
   import Each from "$lib/Each.svelte";
   import Keyed from "$lib/Keyed.svelte";
-import OnMountPhoto from "$lib/OnMountPhoto.svelte";
+  import OnMountPhoto from "$lib/OnMountPhoto.svelte";
 </script>
 
 <svelte:head>
